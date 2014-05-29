@@ -28,9 +28,9 @@ domain or where your use is permitted by an applicable exception or limitation. 
 warranties are given. The license may not give you all of the permissions necessary
 for your intended use. For example, other rights such as publicity, privacy, or moral
 rights may limit how you use the material.
+
 ------------------------------------------------------------------------------------
 
-====================================================================================
 
 The default license for any code in this repository is the BSD 2-clause license
 shown below. This license holds unless it is overriden on a directory basis by an
@@ -39,6 +39,7 @@ alternative LICENCE file in that directory.
 The BSD 2-clause license:
 
 ------------------------------------------------------------------------------------
+
 Copyright (c) 2014, <OWNER>
 All rights reserved.
 
