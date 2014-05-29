@@ -2,5 +2,5 @@
 
 # You need to make sure that the tinker
 # dynamic executable is in your PATH.
-dynamic ../jac 100 1.0 10.0 2 298.0
+time dynamic jac 100 1.0 10.0 2 298.0
 
