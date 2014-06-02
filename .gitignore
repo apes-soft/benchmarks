@@ -3,4 +3,5 @@
 # Recursively ignore .xyz files - repository will only contain
 # compressed files otherwise it will use a lot of space unnecessarily.
 *.xyz
+*~
 
