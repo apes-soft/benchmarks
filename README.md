@@ -1,7 +1,7 @@
-Advanced Potential Energy Surface (APES) benchmarks
-===================================================
+The APES Benchmarks Repository
+==============================
 
-This repository was set up to store and share a set of benchmarks deemed useful for measuring the performance of computational chemistry packages relevant to the APES project.
+The Advanced Potential Energy Surface (APES) benchmarks repository was set up to store and share a set of benchmarks deemed useful for measuring the performance of computational chemistry packages relevant to the APES project.
 
 The benchmarks included in this repository are included below. Each benchmark lives in its own "benchNN" directory. Within each bench directory, subdirectories labeled according to software packages (e.g. tinker, pmemD, etc.) contain the files needed to run the benchmark using the relevant locally built executable(s) of the package whose performance is being measured. More details can be found in the Readme files in each of the directories.
 
