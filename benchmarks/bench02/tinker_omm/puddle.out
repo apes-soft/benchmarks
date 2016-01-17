@@ -1,0 +1,126 @@
+Sun Jan 17 19:54:06 2016       
++------------------------------------------------------+                       
+| NVIDIA-SMI 346.82     Driver Version: 346.82         |                       
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 980     Off  | 0000:01:00.0     N/A |                  N/A |
+| 26%   39C    P0    N/A /  N/A |     15MiB /  4095MiB |     N/A      Default |
++-------------------------------+----------------------+----------------------+
+|   1  GeForce GTX 980     Off  | 0000:02:00.0     N/A |                  N/A |
+| 26%   38C    P0    N/A /  N/A |     15MiB /  4095MiB |     N/A      Default |
++-------------------------------+----------------------+----------------------+
+|   2  GeForce GTX 980     Off  | 0000:03:00.0     N/A |                  N/A |
+|  0%   38C    P0    N/A /  N/A |     15MiB /  4095MiB |     N/A      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0            C+G   Not Supported                                         |
+|    1            C+G   Not Supported                                         |
+|    2            C+G   Not Supported                                         |
++-----------------------------------------------------------------------------+
+
+ Default OpenMM Plugin Directory: /home/richard/WORK/OpenMM6.3/lib/plugins
+
+ Plugin Library: libOpenMMCPU.so
+ Plugin Library: libOpenMMPME.so
+ Plugin Library: libOpenMMCUDA.so
+ Plugin Library: libOpenMMRPMDCUDA.so
+ Plugin Library: libOpenMMDrudeCUDA.so
+ Plugin Library: libOpenMMAmoebaCUDA.so
+ Plugin Library: libOpenMMRPMDReference.so
+ Plugin Library: libOpenMMDrudeReference.so
+ Plugin Library: libOpenMMAmoebaReference.so
+
+ Platform CUDA: Using Default Value for CUDA Device ID
+
+ Initial Positions and Velocities:
+
+      1  POS       2.6838866e+01    8.5554060e+00    3.2115462e+01
+      1  VEL       5.8177363e-01   -3.1178550e+00   -3.2837321e-01
+      2  POS       2.6696454e+01    8.9407450e+00    3.1206315e+01
+      2  VEL      -1.6417862e+01   -6.8308055e-01   -2.2741367e+01
+      3  POS       2.7626820e+01    8.9863030e+00    3.2426553e+01
+      3  VEL       1.5440254e+01   -2.6602579e+00    5.5720635e+00
+      4  POS      -1.3699197e+01    2.0128810e+01   -4.6614268e+01
+      4  VEL       6.9601535e+00    2.4062285e+00    9.0954933e-01
+      5  POS      -1.3375518e+01    1.9235977e+01   -4.6801067e+01
+      5  VEL      -8.2191140e+00   -8.7024779e+00    1.5819425e+00
+  95996  POS      -3.7415910e+01   -4.5370587e+01   -4.2199169e+01
+  95996  VEL      -2.7751497e+01   -6.0323730e+00    5.2556365e+00
+  95997  POS      -3.5929762e+01   -4.5883636e+01   -4.2406162e+01
+  95997  VEL       9.4037290e+00    7.5270125e+00   -1.0629671e+01
+  95998  POS       4.2300979e+01    2.7538345e+01    2.3661204e+01
+  95998  VEL      -2.7472750e+00   -1.7302364e+00    3.8733283e+00
+  95999  POS       4.3070791e+01    2.7639954e+01    2.3128728e+01
+  95999  VEL       5.5510613e+00    1.1878987e+01    6.7075241e+00
+  96000  POS       4.2340284e+01    2.6656314e+01    2.4205361e+01
+  96000  VEL      -6.3560738e+00    9.0029559e+00   -5.2829217e+00
+
+ Testing TINKER vs OpenMM for AMOEBA:
+
+ Potential Terms Used in TINKER:
+
+    Bond=    1    Angle=   1    StrBnd=  0    Urey=    1    AngAng=  0
+    OPBend=  0    OPDist=  0    ImProp=  0    ImpTor=  0    Tors=    0
+    PiTors=  1    StrTor=  0    AngTor=  0    TorTor=  0    Vdw=     1
+    Charge=  0    ChgDpl=  0    Dipole=  0    MPole=   1    Polar=   1
+    RxnFld=  0    LigFld=  0    Restrn=  0    Solv=    0    Extra=   1
+
+ Potential Energy Components from TINKER:
+
+    EB=    2.4918868e+04   EA=    1.3196887e+04   EBA=   0.0000000e+00
+    EUB=  -7.6943571e+02   EAA=   0.0000000e+00   EOPB=  0.0000000e+00
+    EOPD=  0.0000000e+00   EID=   0.0000000e+00   EIT=   0.0000000e+00
+    ET=    0.0000000e+00   EPT=   0.0000000e+00   EBT=   0.0000000e+00
+    EAT=   0.0000000e+00   ETT=   0.0000000e+00   EV=    1.4422233e+05
+    EC=    0.0000000e+00   ECD=   0.0000000e+00   ED=    0.0000000e+00
+    EM=   -3.2904408e+05   EP=   -1.4140690e+05   ER=    0.0000000e+00
+    ES=    0.0000000e+00   ELF=   0.0000000e+00   EG=    0.0000000e+00
+    EX=    0.0000000e+00
+
+ Test Option:  AmoebaAllTest
+
+ Platform CUDA: Using Default Value for CUDA Device ID
+
+ TINKER vs OpenMM Energy Values:
+
+ TINKER Potential Energy         -288882.3285
+ OpenMM Potential Energy         -288836.5101
+
+ Summary of TINKER vs OpenMM Comparison:
+
+ EnergyDelta                    4.5818397e+01
+ MaxForceDelta at     50155     1.6026794e-02
+ MinDotProduct at     75632     9.9997658e-01
+ AvgDotProduct                  9.9999999e-01
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            TINKER  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                        Version 7.1  February 2015                        ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2015               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Molecular Dynamics Trajectory via Velocity Verlet Algorithm
+
+ Performance:  ns/day               0.5631
+               Wall Time          153.4400
+               Steps                  1000
+               Updates                   1
+               Time Step            1.0000
+               Atoms                 96000
+               Threads                  12
+141.72user 14.94system 2:58.55elapsed 87%CPU (0avgtext+0avgdata 2284164maxresident)k
+0inputs+16outputs (0major+1053642minor)pagefaults 0swaps
